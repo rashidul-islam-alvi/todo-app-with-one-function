@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header {
+    text-align: center;
+    font-size: 7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: paleturquoise;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.inputStyle {
+    
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: auto;
+    top: 10%;
+    display: block;
+    outline: none;
+}
+
+
+.btn {
+    color: #444;
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    margin: auto;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transform: translate(185px,-66px);
+}
+
+
+.todos li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: auto;
+    height: 50px;
+    width: 370px;
+    align-items: center;
+    list-style: lower-roman;
+}
+
+
+.checkboxStyle {
+    position: absolute;
+    right: 35%;
+    width:20px;
+    height:20px;
+    
+}
+
+
+.deleteButtonStyle {
+    width:20px;
+    height:20px;
+    text-align: center;
+}
+
+
+
+.completed {
+    text-decoration: line-through;
+    color: #b5b5b5b5;
+}
